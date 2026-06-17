@@ -10,7 +10,7 @@
 
 | กรณี | ตำแหน่งที่ปรากฏ |
 |---|---|
-| การให้บริการ CombatBalance·CombatFormula | 8.1 |
+| การดำเนินงาน CombatBalance·CombatFormula | 8.1 |
 | Economy Machinations Pilot | 8.2 |
 | Damage Simulator (2008\~) | 8.3 |
 | Procedural Level Design Master | 7.1 |
@@ -23,16 +23,16 @@
 | proj_city_hunting_generator | 6.2 |
 | NPC Persona/Squad | 6.3 |
 
-### F.1.2 กรณีด้านการให้บริการ
+### F.1.2 กรณีด้านการดำเนินงาน
 
 | กรณี | ตำแหน่งที่ปรากฏ |
 |---|---|
-| การให้บริการ 95_BattleTF | 16.1 |
+| การดำเนินงาน 95_BattleTF | 16.1 |
 | การทำงานร่วมกัน 97_DevGuide | 16.2 |
 | ระบบบันทึกการประชุม 17.x | ทั้งส่วนที่ 17 |
 | Alpha Gap Report | 10.3 |
 | decision_validation 3-layer | 10.2 |
-| การให้บริการ 304 atom | 20.1 |
+| การดำเนินงาน 304 atom | 20.1 |
 | หน่วยความจำสมาชิกทีม | 20.2 |
 | เว็บพอร์ทัล | 20.3 |
 

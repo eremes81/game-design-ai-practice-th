@@ -41,7 +41,7 @@ author: 이민수
   <text x="615" y="56" fill="#5f6368" font-size="11" text-anchor="middle">ต้นฉบับเปลี่ยน→ทิ้งของที่สืบทอด</text>
 
   <rect x="20" y="236" width="170" height="44" rx="6" fill="#fce8e6" stroke="#c5221f"/>
-  <text x="105" y="256" fill="#1a1a1a" font-size="12.5" text-anchor="middle">ความเสี่ยงทางกฎหมาย</text>
+  <text x="105" y="256" fill="#1a1a1a" font-size="12.5" text-anchor="middle">การเปิดเผยความรับผิดทางกฎหมาย</text>
   <text x="105" y="272" fill="#5f6368" font-size="11" text-anchor="middle">หลักฐานของแอสเซตภายนอกหาย</text>
 
   <rect x="530" y="236" width="170" height="44" rx="6" fill="#fce8e6" stroke="#c5221f"/>

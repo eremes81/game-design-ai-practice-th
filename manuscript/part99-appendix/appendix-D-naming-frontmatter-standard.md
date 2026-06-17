@@ -125,7 +125,7 @@ related_atoms: [...]
 
 ```yaml
 ---
-title: เอกสารข้อกำหนดฟีเจอร์การเช็กชื่อกิลด์
+title: เอกสารข้อกำหนดฟีเจอร์การเช็กอินกิลด์
 type: spec
 priority: P1
 target_milestone: MS2

@@ -206,21 +206,21 @@ flowchart TD
 
 <svg viewBox="0 0 720 400" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif" font-size="13">
   <rect x="0" y="0" width="720" height="400" fill="#fafafa"/>
-  <!-- 세로 레인 -->
+  <!-- vertical lanes -->
   <rect x="20" y="20" width="200" height="360" fill="#eef3fb" stroke="#9bb8e0"/>
   <rect x="260" y="20" width="200" height="360" fill="#eef9f0" stroke="#9bd0a8"/>
   <rect x="500" y="20" width="200" height="360" fill="#fdf3ec" stroke="#e0b893"/>
   <text x="120" y="42" text-anchor="middle" font-weight="bold">settings.json</text>
   <text x="360" y="42" text-anchor="middle" font-weight="bold">หน่วยความจำ (JIT)</text>
   <text x="600" y="42" text-anchor="middle" font-weight="bold">สิทธิ์ (permissions)</text>
-  <!-- settings 레인 박스 -->
+  <!-- settings lane boxes -->
   <rect x="35" y="60" width="170" height="46" rx="5" fill="#ffffff" stroke="#7aa0d0"/>
   <text x="120" y="80" text-anchor="middle">UserPromptSubmit</text>
   <text x="120" y="97" text-anchor="middle">hook ทำงาน</text>
   <rect x="35" y="130" width="170" height="46" rx="5" fill="#ffffff" stroke="#7aa0d0"/>
   <text x="120" y="150" text-anchor="middle">inject_memory.py</text>
   <text x="120" y="167" text-anchor="middle">รัน (รับประกัน exit 0)</text>
-  <!-- 메모리 레인 박스 -->
+  <!-- memory lane boxes -->
   <rect x="275" y="130" width="170" height="46" rx="5" fill="#ffffff" stroke="#5fae7e"/>
   <text x="360" y="150" text-anchor="middle">manifest 17 atom</text>
   <text x="360" y="167" text-anchor="middle">เรียง score · regex</text>
@@ -230,13 +230,13 @@ flowchart TD
   <rect x="275" y="270" width="170" height="46" rx="5" fill="#ffffff" stroke="#5fae7e"/>
   <text x="360" y="290" text-anchor="middle">cooldown atom</text>
   <text x="360" y="307" text-anchor="middle">แนบไว้หน้าอินพุต</text>
-  <!-- 권한 레인 박스 -->
+  <!-- permission lane boxes -->
   <rect x="515" y="270" width="170" height="46" rx="5" fill="#ffffff" stroke="#cf9560"/>
   <text x="600" y="290" text-anchor="middle">allow / deny</text>
   <text x="600" y="307" text-anchor="middle">ตรวจทุกการเรียกเครื่องมือ</text>
   <rect x="515" y="340" width="170" height="34" rx="5" fill="#ffffff" stroke="#cf9560"/>
   <text x="600" y="361" text-anchor="middle">อ่านอัตโนมัติ · ลบต้องอนุมัติ</text>
-  <!-- 화살표 -->
+  <!-- arrows -->
   <line x1="120" y1="106" x2="120" y2="130" stroke="#555" stroke-width="1.5" marker-end="url(#a)"/>
   <line x1="205" y1="153" x2="275" y2="153" stroke="#555" stroke-width="1.5" marker-end="url(#a)"/>
   <line x1="360" y1="176" x2="360" y2="200" stroke="#555" stroke-width="1.5" marker-end="url(#a)"/>
@@ -284,7 +284,7 @@ flowchart TD
 | ความผิดพลาด | ต้นเหตุของอุบัติเหตุ | วิธีเลี่ยง |
 |---|---|---|
 | ใส่ข้อมูลในโกลบอลมากเกินไป | ทุกเซสชันหนักขึ้นและสิ้นเปลืองโทเค็น | โกลบอลไม่เกิน 5KB รายละเอียดย้ายไปหน่วยความจำของโปรเจกต์ |
-| อนุญาตทุกสิทธิ์อัตโนมัติ | ความสะดวกบดบังความเสี่ยงเป็นที่แรก | อ่านและค้นหาให้อัตโนมัติเท่านั้น เขียนและลบต้องอนุมัติ (รวมการจัดระเบียบรายไตรมาส) |
+| อนุญาตทุกสิทธิ์อัตโนมัติ | จุดเริ่มที่ความสะดวกบดบังความเสี่ยง | อ่านและค้นหาให้อัตโนมัติเท่านั้น เขียนและลบต้องอนุมัติ (รวมการจัดระเบียบรายไตรมาส) |
 | แก้ settings โดยไม่สำรอง | settings ที่พังทำให้เครื่องมือเปิดไม่ขึ้น | บันทึก `settings.json.bak_<วันที่>` อัตโนมัติก่อนแก้ไข |
 | ใส่ atom ลงโฟลเดอร์หน่วยความจำไม่จำกัด | การโหลดอัตโนมัติกดดันเพดานโทเค็น | นำ JIT manifest มาใช้ตั้งแต่ราว 50 ตัว |
 | ปนการตั้งค่าทีมกับส่วนตัวไว้ในไฟล์เดียว | git ชนกัน · การตั้งค่าส่วนตัวรั่วไหล | ทีมใช้ `settings.json` ส่วนตัวใช้ `settings.local.json` |
