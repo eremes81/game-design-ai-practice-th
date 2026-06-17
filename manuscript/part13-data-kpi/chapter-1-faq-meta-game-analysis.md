@@ -124,7 +124,7 @@ flowchart TB
     D --> B
     C -->|ผ่าน| E["ตารางรวมยอดรายสัปดาห์<br/>หัวข้อ × จำนวน × อารมณ์"]
     E --> F{"ด่านตัดสินใจเชิงออกแบบ<br/>(Design Director·นักออกแบบเกม)"}
-    F --> G["ไตรมาส 3: ทบทวนการปรับสมดุล<br/>· UI/ทูทอเรียล · แก้บั๊ก"]
+    F --> G["แตกเป็น 3 ทาง: ทบทวนการปรับสมดุล<br/>· UI/ทูทอเรียล · แก้บั๊ก"]
     classDef ai fill:#f3e8ff,stroke:#9333ea,color:#3b0764;
     classDef human fill:#fde68a,stroke:#b45309,color:#000;
     classDef data fill:#e2e8f0,stroke:#64748b,color:#1e293b;
