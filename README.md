@@ -10,6 +10,11 @@
 
 **🌐 ฉบับภาษาต่าง ๆ:** [한국어 — ต้นฉบับ](https://github.com/eremes81/game-design-ai-practice) · [English](https://github.com/eremes81/game-design-ai-practice-en) · [日本語](https://github.com/eremes81/game-design-ai-practice-ja) · **ไทย** · [简体中文](https://github.com/eremes81/game-design-ai-practice-zh-hans) · [繁體中文](https://github.com/eremes81/game-design-ai-practice-zh-hant)
 
+> 🧰 **เครื่องมือประกอบ — [Harness Starter Kit](https://github.com/eremes81/harness-starter-kit)**
+> ชุดเล็กที่สุดที่นำโครงสร้างหน่วยความจำ hook และการทบทวน ซึ่งหนังสือเล่มนี้สร้างขึ้นในบทที่ 1.3 ภาค 21 และภาค 24 มารวมไว้ให้ดาวน์โหลดทั้งโฟลเดอร์แล้วรันได้ทันที
+> สร้างขึ้นเป็นภาคผนวกของหนังสืออีกเล่มของผู้เขียน แต่โครงสร้างเดียวกัน ใบอนุญาต MIT
+
+
 <img src="assets/cover.png" alt="ปก" width="320">
 
 คู่มือภาคสนามเชิงปฏิบัติโดยผู้กำกับฝ่ายออกแบบที่มีประสบการณ์ 24 ปีในวงการเกม ว่าด้วยการนำ generative AI (Claude Code) มาใช้ใน **งานผลิตประจำวันจริง** ไม่ใช่ทฤษฎีหรือการคาดการณ์ — หนังสือพาไปทีละงานตั้งแต่หน้าจอแรกสุด (การติดตั้ง บัญชี ราคา) ผ่านการออกแบบระบบ การต่อสู้ เนื้อเรื่อง เลเวลดีไซน์ การปรับสมดุล UX และ Live Ops ไปจนถึงการแปลงบันทึกการประชุมเป็นการตัดสินใจ ด่านตรวจสอบ การบริหารต้นทุน และลิขสิทธิ์
