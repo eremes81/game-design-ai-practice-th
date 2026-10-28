@@ -9,6 +9,8 @@
 
 **🌐 ฉบับภาษาต่าง ๆ:** [한국어 — ต้นฉบับ](https://github.com/eremes81/game-design-ai-practice) · [English](https://github.com/eremes81/game-design-ai-practice-en) · [日本語](https://github.com/eremes81/game-design-ai-practice-ja) · **ไทย** · [简体中文](https://github.com/eremes81/game-design-ai-practice-zh-hans) · [繁體中文](https://github.com/eremes81/game-design-ai-practice-zh-hant)
 
+📢 The author's second book, 『직장인을 위한 AI 업무 설계의 기술』 (Hanbit Media, Korean) — the author interview is out (in Korean) → https://www.youtube.com/watch?v=v8ygfpAAVQM
+
 > 🧰 **เครื่องมือประกอบ — [Harness Starter Kit](https://github.com/eremes81/harness-starter-kit)**
 > ชุดเล็กที่สุดที่นำโครงสร้างหน่วยความจำ hook และการทบทวน ซึ่งหนังสือเล่มนี้สร้างขึ้นในบทที่ 1.3 ภาค 21 และภาค 24 มารวมไว้ให้ดาวน์โหลดทั้งโฟลเดอร์แล้วรันได้ทันที
 > สร้างขึ้นเป็นภาคผนวกของหนังสืออีกเล่มของผู้เขียน แต่โครงสร้างเดียวกัน ใบอนุญาต MIT
