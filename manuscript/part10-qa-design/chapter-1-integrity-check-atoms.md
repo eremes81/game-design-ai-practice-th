@@ -2,7 +2,7 @@
 title: "10.1 atom ตรวจสอบความสอดคล้อง — cascade ที่รักษา FK ของ 30 ชีต"
 part: 10
 chapter: 1
-author: 이민수
+author: 이민수, 조지희
 status: v3
 version: v3
 ---

@@ -5,7 +5,7 @@ chapter: 5
 status: v3
 version: v3
 written: 2026-05-24
-author: อี มินซู
+author: อี มินซู, โจ จีฮี
 ip_check: done
 ---
 

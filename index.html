@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="th"><head><meta charset="UTF-8"><title>AI และ Claude Code สำหรับงานออกแบบเกมในทางปฏิบัติ</title><meta name="description" content="คู่มือภาคปฏิบัติจากผู้อำนวยการออกแบบเกมประสบการณ์ 24 ปี ว่าด้วยการนำ AI (Claude Code) เข้าสู่งานผลิตประจำวัน ตั้งแต่การติดตั้งไปจนถึงการออกแบบระบบ การต่อสู้ เรื่องเล่า สมดุล และการดูแลเกมหลังเปิดตัว อ่านฉบับเต็มฟรี"><meta name="keywords" content="AI,Claude Code,ออกแบบเกม,นักออกแบบเกม,prompt,LLM,game design"><meta name="author" content="Minsoo Lee (이민수)"><link rel="canonical" href="https://eremes81.github.io/game-design-ai-practice-th/"><meta property="og:type" content="book"><meta property="og:site_name" content="AI และ Claude Code สำหรับงานออกแบบเกมในทางปฏิบัติ"><meta property="og:title" content="AI และ Claude Code สำหรับงานออกแบบเกมในทางปฏิบัติ"><meta property="og:description" content="คู่มือภาคปฏิบัติจากผู้อำนวยการออกแบบเกมประสบการณ์ 24 ปี ว่าด้วยการนำ AI (Claude Code) เข้าสู่งานผลิตประจำวัน ตั้งแต่การติดตั้งไปจนถึงการออกแบบระบบ การต่อสู้ เรื่องเล่า สมดุล และการดูแลเกมหลังเปิดตัว อ่านฉบับเต็มฟรี"><meta property="og:url" content="https://eremes81.github.io/game-design-ai-practice-th/"><meta property="og:image" content="https://eremes81.github.io/game-design-ai-practice-th/assets/cover.png"><meta property="og:locale" content="th_TH"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="AI และ Claude Code สำหรับงานออกแบบเกมในทางปฏิบัติ"><meta name="twitter:description" content="คู่มือภาคปฏิบัติจากผู้อำนวยการออกแบบเกมประสบการณ์ 24 ปี ว่าด้วยการนำ AI (Claude Code) เข้าสู่งานผลิตประจำวัน ตั้งแต่การติดตั้งไปจนถึงการออกแบบระบบ การต่อสู้ เรื่องเล่า สมดุล และการดูแลเกมหลังเปิดตัว อ่านฉบับเต็มฟรี"><meta name="twitter:image" content="https://eremes81.github.io/game-design-ai-practice-th/assets/cover.png"><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Book", "name": "AI และ Claude Code สำหรับงานออกแบบเกมในทางปฏิบัติ", "author": {"@type": "Person", "name": "Minsoo Lee", "alternateName": "이민수", "url": "https://www.linkedin.com/in/min-soo-lee-a2632367/"}, "isbn": "979-11-12-21479-9", "inLanguage": "th", "url": "https://eremes81.github.io/game-design-ai-practice-th/", "image": "https://eremes81.github.io/game-design-ai-practice-th/assets/cover.png", "description": "คู่มือภาคปฏิบัติจากผู้อำนวยการออกแบบเกมประสบการณ์ 24 ปี ว่าด้วยการนำ AI (Claude Code) เข้าสู่งานผลิตประจำวัน ตั้งแต่การติดตั้งไปจนถึงการออกแบบระบบ การต่อสู้ เรื่องเล่า สมดุล และการดูแลเกมหลังเปิดตัว อ่านฉบับเต็มฟรี", "datePublished": "2026-06-11", "numberOfPages": 876, "publisher": {"@type": "Organization", "name": "BOOKK"}, "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/"}</script><meta name="viewport" content="width=device-width,initial-scale=1"><script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script><script>mermaid.initialize({startOnLoad:true,theme:'neutral'});</script><style>body{font-family:"Noto Sans Thai","Leelawadee UI","Tahoma","Noto Sans KR","Yu Gothic","Malgun Gothic",sans-serif;max-width:820px;margin:40px auto;padding:0 20px 80px;line-height:1.85;font-size:16px;color:#222;}
+<!DOCTYPE html><html lang="th"><head><meta charset="UTF-8"><title>AI และ Claude Code สำหรับงานออกแบบเกมในทางปฏิบัติ</title><meta name="description" content="คู่มือภาคปฏิบัติจากผู้อำนวยการออกแบบเกมประสบการณ์ 24 ปี ว่าด้วยการนำ AI (Claude Code) เข้าสู่งานผลิตประจำวัน ตั้งแต่การติดตั้งไปจนถึงการออกแบบระบบ การต่อสู้ เรื่องเล่า สมดุล และการดูแลเกมหลังเปิดตัว อ่านฉบับเต็มฟรี"><meta name="keywords" content="AI,Claude Code,ออกแบบเกม,นักออกแบบเกม,prompt,LLM,game design"><meta name="author" content="Minsoo Lee (이민수), Jihee Jo (조지희)"><link rel="canonical" href="https://eremes81.github.io/game-design-ai-practice-th/"><meta property="og:type" content="book"><meta property="og:site_name" content="AI และ Claude Code สำหรับงานออกแบบเกมในทางปฏิบัติ"><meta property="og:title" content="AI และ Claude Code สำหรับงานออกแบบเกมในทางปฏิบัติ"><meta property="og:description" content="คู่มือภาคปฏิบัติจากผู้อำนวยการออกแบบเกมประสบการณ์ 24 ปี ว่าด้วยการนำ AI (Claude Code) เข้าสู่งานผลิตประจำวัน ตั้งแต่การติดตั้งไปจนถึงการออกแบบระบบ การต่อสู้ เรื่องเล่า สมดุล และการดูแลเกมหลังเปิดตัว อ่านฉบับเต็มฟรี"><meta property="og:url" content="https://eremes81.github.io/game-design-ai-practice-th/"><meta property="og:image" content="https://eremes81.github.io/game-design-ai-practice-th/assets/cover.png"><meta property="og:locale" content="th_TH"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="AI และ Claude Code สำหรับงานออกแบบเกมในทางปฏิบัติ"><meta name="twitter:description" content="คู่มือภาคปฏิบัติจากผู้อำนวยการออกแบบเกมประสบการณ์ 24 ปี ว่าด้วยการนำ AI (Claude Code) เข้าสู่งานผลิตประจำวัน ตั้งแต่การติดตั้งไปจนถึงการออกแบบระบบ การต่อสู้ เรื่องเล่า สมดุล และการดูแลเกมหลังเปิดตัว อ่านฉบับเต็มฟรี"><meta name="twitter:image" content="https://eremes81.github.io/game-design-ai-practice-th/assets/cover.png"><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Book", "name": "AI และ Claude Code สำหรับงานออกแบบเกมในทางปฏิบัติ", "author": [{"@type": "Person", "name": "Minsoo Lee", "alternateName": "이민수", "url": "https://www.linkedin.com/in/min-soo-lee-a2632367/"}, {"@type": "Person", "name": "Jihee Jo", "alternateName": "조지희"}], "isbn": "979-11-12-21479-9", "inLanguage": "th", "url": "https://eremes81.github.io/game-design-ai-practice-th/", "image": "https://eremes81.github.io/game-design-ai-practice-th/assets/cover.png", "description": "คู่มือภาคปฏิบัติจากผู้อำนวยการออกแบบเกมประสบการณ์ 24 ปี ว่าด้วยการนำ AI (Claude Code) เข้าสู่งานผลิตประจำวัน ตั้งแต่การติดตั้งไปจนถึงการออกแบบระบบ การต่อสู้ เรื่องเล่า สมดุล และการดูแลเกมหลังเปิดตัว อ่านฉบับเต็มฟรี", "datePublished": "2026-06-11", "numberOfPages": 876, "publisher": {"@type": "Organization", "name": "BOOKK"}, "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/"}</script><meta name="viewport" content="width=device-width,initial-scale=1"><script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script><script>mermaid.initialize({startOnLoad:true,theme:'neutral'});</script><style>body{font-family:"Noto Sans Thai","Leelawadee UI","Tahoma","Noto Sans KR","Yu Gothic","Malgun Gothic",sans-serif;max-width:820px;margin:40px auto;padding:0 20px 80px;line-height:1.85;font-size:16px;color:#222;}
 h1{font-size:1.9em;border-bottom:3px solid #333;padding-bottom:.3em;margin-top:2.5em;}
 h1.part{font-size:2.1em;text-align:center;border-bottom:2px solid #555;}
 h2{font-size:1.4em;margin-top:2em;border-bottom:1px solid #ddd;padding-bottom:.2em;}
@@ -300,7 +300,7 @@ hr{border:none;border-top:1px solid #ddd;margin:2em 0;}
   <rect x="0" y="1370" width="1000" height="130" fill="#0a2b30" opacity="0.85"/>
 
   <!-- footer (좌하단 스택 — 하단 중앙우측 x≈44~70%는 부크크 BOOKK 스탬프 자리라 비움, 실측 2026-06-10) -->
-  <text x="120" y="1404" font-size="30" font-weight="600" fill="#e2e8f0">Minsoo Lee (อี มินซู)</text>
+  <text x="120" y="1404" font-size="30" font-weight="600" fill="#e2e8f0">Minsoo Lee (อี มินซู) · Jihee Jo (โจ จีฮี)</text>
   <text x="120" y="1446" font-family="Consolas,Menlo,monospace" font-size="17" letter-spacing="1.2" fill="#7dd3fc">DESIGN DIRECTOR · 24Y · 2026</text>
 
   <!-- 고미 & 꽁지 — synthwave 도로 위 마스코트 -->
@@ -326,14 +326,15 @@ hr{border:none;border-top:1px solid #ddd;margin:2em 0;}
 </div><h1>AI และ Claude Code สำหรับงานออกแบบเกมในทางปฏิบัติ</h1>
 <p><strong>ไม่มีตัวเลขที่กุขึ้นแม้แต่ตัวเดียว — เวิร์กโฟลว์ AI ที่รันมา 6 เดือน เปิดเผยทั้งหมดตั้งแต่พรอมต์ โค้ด ไปจนถึงการตรวจสอบ</strong></p>
 <p>Design Director ประสบการณ์ 24 ปี นำกฎ 304 ข้อ เครื่องมือ 48 ตัว และระบบอัตโนมัติที่ใช้งานจริงในทีมขนาดกลาง (10–50 คน) มาเสนออย่างที่เป็นจริง</p>
-<p>ผู้เขียน อี มินซู (Minsoo Lee) · 2026</p>
+<p>ผู้เขียน อี มินซู (Minsoo Lee) และ โจ จีฮี (Jihee Jo) · ผู้ตรวจทาน โจ จีฮี · 2026</p>
 <blockquote><p>เนื้อหาทั้งหมดในเล่มนี้อ้างอิงสถานะ ณ <strong>ครึ่งแรกของปี 2026</strong> ค่าบริการ โมเดล และฟีเจอร์ของเครื่องมือ AI เปลี่ยนแปลงอย่างรวดเร็ว ดังนั้นกรุณาตรวจสอบตัวเลขที่เจาะจงและวิธีติดตั้งล่าสุดได้จากหน้าทางการของแต่ละเครื่องมือ</p></blockquote>
 <hr />
 <h2>การเผยแพร่และลิขสิทธิ์ของหนังสือเล่มนี้</h2>
-<p>หนังสือเล่มนี้เปิดเผยให้อ่านฟรีด้วยความหวังว่าจะมีผู้อ่านอย่างกว้างขวาง อย่างไรก็ตาม ไม่ว่าจะเป็นต้นฉบับภาษาเกาหลี หรือฉบับแปลภาษาอังกฤษ ภาษาญี่ปุ่น ข้อเท็จจริงที่ว่าผู้เขียนต้นฉบับของหนังสือเล่มนี้คือ <strong>อี มินซู (Minsoo Lee)</strong> จะต้องคงอยู่ไม่ว่าจะอยู่ที่ใดก็ตาม</p>
+<p>หนังสือเล่มนี้เปิดเผยให้อ่านฟรีด้วยความหวังว่าจะมีผู้อ่านอย่างกว้างขวาง อย่างไรก็ตาม ไม่ว่าจะเป็นต้นฉบับภาษาเกาหลี หรือฉบับแปลภาษาอังกฤษ ภาษาญี่ปุ่น ข้อเท็จจริงที่ว่าผู้เขียนต้นฉบับของหนังสือเล่มนี้คือ <strong>อี มินซู (Minsoo Lee) และ โจ จีฮี (Jihee Jo)</strong> จะต้องคงอยู่ไม่ว่าจะอยู่ที่ใดก็ตาม</p>
 <ul>
 <li><strong>สัญญาอนุญาต</strong>: ครีเอทีฟคอมมอนส์ <strong>แสดงที่มา-ไม่ใช้เพื่อการค้า-อนุญาตแบบเดียวกัน 4.0</strong> (CC BY-NC-SA 4.0)</li>
-<li><strong>ผู้เขียนต้นฉบับ</strong>: อี มินซู (Minsoo Lee), 2026</li>
+<li><strong>ผู้เขียนต้นฉบับ</strong>: อี มินซู (Minsoo Lee) และ โจ จีฮี (Jihee Jo), 2026</li>
+<li><strong>ผู้ตรวจทาน</strong>: โจ จีฮี (Jihee Jo)</li>
 <li><strong>ฉบับตั้งต้น (canonical)</strong>: <code>https://eremes81.github.io/game-design-ai-practice</code> (GitHub Pages ของผู้เขียน — ฉบับตั้งต้นที่สิทธิ์ในการแก้ไขอยู่ที่ผู้เขียน)</li>
 </ul>
 <p><strong>สิ่งที่ทำได้อย่างอิสระ</strong> การเรียนรู้ส่วนตัว การแบ่งปันและอ้างอิงแบบไม่ใช่เพื่อการค้า การแปลแบบไม่ใช่เพื่อการค้า การนำไปใช้ในกลุ่มศึกษาภายในบริษัท — เพียงแต่ขอให้แสดงชื่อผู้เขียนต้นฉบับและลิงก์ฉบับตั้งต้นไว้ด้วย และหากแก้ไขเนื้อหาหรือนำไปแปลเป็นภาษาอื่น ขอให้ระบุข้อเท็จจริงนั้นไว้ด้วย งานดัดแปลงก็ขอให้แบ่งปันภายใต้เงื่อนไขเดียวกัน</p>
@@ -29518,7 +29519,11 @@ if __name__ == &quot;__main__&quot;:
 </tr>
 <tr>
 <td>ผู้เขียน</td>
-<td>Minsoo Lee (อี มินซู / 이민수)</td>
+<td>Minsoo Lee (อี มินซู / 이민수) · Jihee Jo (โจ จีฮี / 조지희)</td>
+</tr>
+<tr>
+<td>ผู้ตรวจทาน</td>
+<td>Jihee Jo (โจ จีฮี / 조지희)</td>
 </tr>
 <tr>
 <td>สำนักพิมพ์ต้นฉบับ</td>
@@ -29538,5 +29543,5 @@ if __name__ == &quot;__main__&quot;:
 </tr>
 </tbody>
 </table>
-<p>ⓒ Minsoo Lee 2026</p>
-<p>หนังสือเล่มนี้เผยแพร่ภายใต้สัญญาอนุญาต <strong>CC BY-NC-SA 4.0</strong> — อนุญาตให้แบ่งปันและแปลโดยไม่แสวงหากำไรได้ โดยต้องให้เครดิตผู้เขียนต้นฉบับ (Minsoo Lee · 이민수) และระบุแหล่งที่มา ส่วนการใช้เพื่อการค้าต้องได้รับอนุญาตจากผู้เขียนเป็นการเฉพาะ</p></body></html>
+<p>ⓒ Minsoo Lee · Jihee Jo 2026</p>
+<p>หนังสือเล่มนี้เผยแพร่ภายใต้สัญญาอนุญาต <strong>CC BY-NC-SA 4.0</strong> — อนุญาตให้แบ่งปันและแปลโดยไม่แสวงหากำไรได้ โดยต้องให้เครดิตผู้เขียนต้นฉบับ (Minsoo Lee · 이민수, Jihee Jo · 조지희) และระบุแหล่งที่มา ส่วนการใช้เพื่อการค้าต้องได้รับอนุญาตจากผู้เขียนเป็นการเฉพาะ</p></body></html>

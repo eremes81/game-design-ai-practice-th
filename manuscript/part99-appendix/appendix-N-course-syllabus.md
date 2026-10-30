@@ -3,7 +3,7 @@ title: "ภาคผนวก N. ตารางความก้าวหน�
 appendix: N
 status: v3
 written: 2026-06-06
-author: 이민수
+author: 이민수, 조지희
 version: v3
 ---
 

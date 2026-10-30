@@ -4,7 +4,7 @@ part: 10
 chapter: 3
 status: v3
 version: v3
-author: 이민수
+author: 이민수, 조지희
 ---
 
 # 10.3 Alpha Gap Report — จัดหมวดหมู่ช่องว่างด้วยภาษาธรรมชาติ แล้วให้คนจัดลำดับความสำคัญ
